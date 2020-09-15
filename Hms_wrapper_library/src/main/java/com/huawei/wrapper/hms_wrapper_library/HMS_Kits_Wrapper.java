@@ -9,14 +9,14 @@ import android.widget.Toast;
 public class HMS_Kits_Wrapper {
     public static String TAG = HMS_Kits_Wrapper.class.getSimpleName();
 
-    public void registerReceiver(Context context) {
+    public static void registerReceiver(Context context) {
         MyReceiver receiver = new MyReceiver();
         IntentFilter filter=new IntentFilter();
         filter.addAction("com.huawei.wrapper.hms_wrapper_library.ON_NEW_TOKEN");
         context.registerReceiver(receiver,filter);
     }
 
-    public class MyReceiver extends BroadcastReceiver {
+    public static class MyReceiver extends BroadcastReceiver {
 
         @Override
         public void onReceive(Context context, Intent intent) {
