@@ -1,4 +1,4 @@
-package com.huawei.wrapper.hms_wrapper_library;
+package com.huawei.hmskit.wrapper_library;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.huawei.wrapper.hms_wrapper_library.test", appContext.getPackageName());
+        assertEquals("com.huawei.hmskit.wrapper_library.test", appContext.getPackageName());
     }
 }

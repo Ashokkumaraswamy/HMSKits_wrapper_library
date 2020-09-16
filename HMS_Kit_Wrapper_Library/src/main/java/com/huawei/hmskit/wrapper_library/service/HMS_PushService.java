@@ -1,13 +1,13 @@
-package com.huawei.wrapper.hms_wrapper_library.service;
+package com.huawei.hmskit.wrapper_library.service;
 
 import android.content.Intent;
 import android.util.Log;
-
 import com.huawei.hms.push.HmsMessageService;
 import com.huawei.hms.push.RemoteMessage;
 
-public class MyPushService extends HmsMessageService {
+public class HMS_PushService extends HmsMessageService {
     private static final String TAG = "PushDemoLog";
+
     @Override
     public void onNewToken(String token) {
         super.onNewToken(token);

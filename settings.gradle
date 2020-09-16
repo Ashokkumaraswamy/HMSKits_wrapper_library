@@ -1,3 +1,3 @@
-include ':Hms_wrapper_library'
+include ':HMS_Kit_Wrapper_Library'
 include ':app'
 rootProject.name = "HMSKits"

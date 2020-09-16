@@ -1,4 +1,4 @@
-package com.huawei.wrapper.hms_wrapper_library;
+package com.huawei.hmskit.wrapper_library;
 
 import org.junit.Test;
 

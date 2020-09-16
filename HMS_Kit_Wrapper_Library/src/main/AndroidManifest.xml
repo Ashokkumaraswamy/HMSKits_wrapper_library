@@ -1,11 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.huawei.wrapper.hms_wrapper_library">
+    package="com.huawei.hmskit.wrapper_library">
     <application
         android:allowBackup="true"
-        android:label="@string/app_name"
-       >
+        >
         <service
-            android:name=".service.MyPushService"
+            android:name=".service.HMS_PushService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
